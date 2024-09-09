@@ -21,7 +21,7 @@ void printMsg(int argc, char* args[]){
     int lastln = 0;
     while (arg < argc){
         ln += strlen(args[arg]) + 1;
-        if( ln > LENGHT){
+        if( ln >= LENGHT){
             for(int i = 0; i <= (LENGHT-lastln-2);i++){
                 printf(" ");
             }
