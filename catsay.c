@@ -70,5 +70,6 @@ int main(int argc, char* args[]){
     }
     printf("/\n");
     printPet();
+    printf("\n");
     return 0;
 }
